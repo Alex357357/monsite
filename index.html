@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <title>Mon site web</title>
+    <script src="script.js" defer></script>
+</head>
+<body>
+
+    <!--#######################-->
+    <!--navigation-->
+    <!--#######################-->
+    <header>
+        <a href="#" class="logo">IMPERIAL<span>Tech</span></a>
+        <i id="menu-burger" class='bx bx-menu'></i>
+        <nav class="navigation">
+            <a href="#home" class="active">Home</a>
+            <a href="#about">Propos</a>
+            <a href="#services">Services</a>
+            <!--<a href="#portfolio">Portfolio</a>-->
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <!--#######################-->
+    <!--home-->
+    <!--#######################-->
+
+    <section class="home" id="home">
+        <div class="home-content">
+            <h3>Hello je suis</h3>
+            <h1>Alex Sanou</h1>
+            <h3>et je suis<span class="multiple"></span></h3>
+            <p>Boostez la visibilité de votre entreprise ou de votre site
+               avec une présence impactante.
+               Contactez-moi par:</p>
+            <div class="social-media">
+                <a href="https://www.facebook.com/profile.php?id=100091455398873" target="_blank"><i class='bx bxl-facebook' ></i></a>
+                <a href="https://twitter.com/sanoualex1111" target="_blank"><i class='bx bxl-twitter' ></i></a>
+                <a href="https://wa.me/22667379257" target="_blank"><i class='bx bxl-whatsapp' ></i></a>
+            </div>
+        </div>
+        <div class="home-img">
+            <img src="web1.avif" alt="">
+        </div>
+    </section>
+
+    <!--#######################-->
+    <!--à propos-->
+    <!--#######################-->
+    <section id="about" class="about">
+        <div class="about-img">
+            <img src="web2.webp" alt="">
+        </div>
+        <div class="about-content">
+            <h2 class="section-title">à<span>propos</span></h2>
+            <h3>Développeur web et d'Application</h3>
+            <p>Je suis un développeur web et d'applications passionné par la création de 
+               solutions numériques modernes et performantes.Depuis plusieurs années,je conçois
+               et développe des sites web et des applications en utilisants des technologies 
+               comme html,css,javaScript,php,java,python et bien d'autres.
+               Mon parcourt m'a permis d'acquérir une solide expérience dans le Développement
+               front-end et back-end.J'aime relever des défis techniques et proposer des 
+               solutions adaptées aux besoins des utilisateurs.</p>
+            <a href="#" class="btn">Télécharger mon CV</a>
+        </div>
+    </section>
+
+    <!--#######################-->
+    <!--service-->
+    <!--#######################-->
+
+    <section id="services" class="services">
+        <h2 class="section-title">Mes<span>Services</span></h2>
+        <div class="services-content">
+            <div class="services-box">
+                <i class='bx bx-code-alt'></i>
+                <h3>Développement web et Application</h3> 
+                <p>Pour me contacter</p>
+                <a href="#" class="btn">Me contacter</a>
+            </div>
+            <div class="services-box">
+                <i class='bx bxs-palette'></i>
+                <h3>Web design</h3> 
+                <p>Pour me contacter</p>
+                <a href="#" class="btn">Me contacter</a>
+            </div>
+            <div class="services-box">
+                <i class='bx bxs-graduation'></i>
+                <h3>Formation en ligne</h3> 
+                <p>Pour me contacter</p>
+                <a href="#" class="btn">En savoir plus</a>
+            </div>
+        </div>
+    </section>
+
+    <!--#######################-->
+    <!--portfolio-->
+    <!--#######################-->
+
+
+    <!--#######################-->
+    <!--contact-->
+    <!--#######################-->
+
+    <section class="contact" id="contact">
+        <h2 class="section-title">Me<span>Contacter</span></h2>
+        <form action="#">
+            <div class="input-box">
+                <input type="text" placeholder="Nom">
+                <input type="email" placeholder="Email">
+            </div>
+            <div class="input-box">
+                <input type="number" placeholder="Téléphone">
+                <input type="text" placeholder="Sujet">
+            </div>
+            <textarea placeholder="Message"></textarea>
+            <input type="submit" value="Envoyer" class="btn">
+        </form>
+    </section>
+
+    <!--#######################-->
+    <!--footer-->
+    <!--#######################-->
+
+    <footer>
+        <div class="footer-txt">
+            <p>Copyright &copy;2025-Mon Site-Tous droits réservés</p>
+        </div>
+        <div class="footer-iconTop">
+            <a href="#home" class="btn-home"><i class="bx bx-up-arrow-alt"></i></a>
+        </div>
+    </footer>
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
