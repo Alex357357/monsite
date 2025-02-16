@@ -641,7 +641,7 @@ footer{
 }
 
 
-@media screen and (max-width:780px){
+@media screen and (max-width:760px){
     html{
         font-size: 4px;
     }
