@@ -418,6 +418,7 @@ footer{
 @media screen and (max-width:360px){
     html{
         font-size: 5px;
+        overflow-x: auto;
     }
     body{
         max-width: 100%;
@@ -472,6 +473,7 @@ footer{
 @media screen and (max-width:412px){
     html{
         font-size: 7px;
+        overflow-x: auto;
     }
    body{
         max-width: none;
@@ -637,3 +639,64 @@ footer{
         font-size: 3rem;
     }
 }
+
+
+@media screen and (max-width:780px){
+    html{
+        font-size: 4px;
+    }
+   body{
+        max-width: none;
+        width: 100%;
+        font-size: 5px;
+    }
+    .home{
+        width: 100%;
+        padding: 10px;
+        font-size: 1rem;
+    }
+    .home-content h1{
+        font-size: 5rem;
+        width: 100%;
+    }
+    .home-content p{
+        font-size: 5rem;
+        width: 100%;
+    }
+    .home-content h3{
+        font-size: 5rem;
+    }
+    .social-media a{
+        font-size: 6rem;
+    }
+    .section-title{
+        font-size: 10rem;
+    }
+    .about-content p{
+        font-size: 3rem;
+    }
+    .about-content h3{
+        font-size: 4rem;
+    }
+    .home-img img, .about img{
+        width: 90vw;
+        margin-top: 2rem;
+    }
+    .navigation a{
+        font-size: 1.8rem;
+        margin: 2rem 0;
+    }
+    .services h2{
+        font-size: 5rem;
+        margin-bottom: 2rem;
+    }
+    .footer-txt p{
+        font-size: 2rem;
+    }
+    .services-box p{
+        font-size: 3rem;
+    }
+}
+
+
+
